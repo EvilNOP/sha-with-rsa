@@ -1,0 +1,26 @@
+package io.github.evilnop.constant
+
+enum class SignatureAlgorithm(val rawValue: String) {
+
+    NONE_WITH_DSA("NONEwithDSA"),
+    SHA1_WITH_DSA("SHA1withDSA"),
+    SHA224_WITH_DSA("SHA224withDSA"),
+    SHA256_WITH_DSA("SHA256withDSA"),
+
+    NONE_WITH_RSA("NONEwithRSA"),
+    MD2_WITH_RSA("MD2withRSA"),
+    MD5_WITH_RSA("MD5withRSA"),
+    SHA1_WITH_RSA("SHA1withRSA"),
+    SHA224_WITH_RSA("SHA224withRSA"),
+    SHA256_WITH_RSA("SHA256withRSA"),
+    SHA384_WITH_RSA("SHA384withRSA"),
+    SHA512_WITH_RSA("SHA512withRSA"),
+    MD5_AND_SHA1_WITH_RSA("MD5andSHA1withRSA"),
+
+    NONE_WITH_ECDSA("NONEwithECDSA"),
+    SHA1_WITH_ECDSA("SHA1withECDSA"),
+    SHA224_WITH_ECDSA("SHA224withECDSA"),
+    SHA256_WITH_ECDSA("SHA256withECDSA"),
+    SHA384_WITH_ECDSA("SHA384withECDSA"),
+    SHA512_WITH_ECDSA("SHA512withECDSA")
+}
