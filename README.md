@@ -1,4 +1,4 @@
-# sha_with_rsa
+# SHA with RSA
 Demonstrating how to implement digital signatures in a original way.
 
 First the content to be signed is first reduced to a message digest with a message-digest algorithm (such as MD5), and then
